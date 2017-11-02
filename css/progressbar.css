@@ -1,0 +1,69 @@
+/** 
+*    Created on : Nov 2, 2017, 9:26:30 PM
+*    @author Anurup Borah
+*    Progress Box Css
+*/
+body{
+   background: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container {
+    width: 100%;
+    min-width: 250px;
+    overflow: hidden;
+}
+
+.progressbar {
+    height: 50px;
+}
+
+.progressbar-wrapper {
+  background: #ddd;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative; 
+}
+
+/*.progress-bar-normal {
+    left: 0;
+    position: absolute;
+    top: 0;
+}*/
+
+.progress-bar-normal {
+    background: #4CAF50;
+}
+  
+.loading-div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.56);
+	z-index: 999;
+	display:none;
+}
+.loading-div img {
+	margin-top: 20%;
+	margin-left: 50%;
+}
+
+.progressbar span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 13px;
+    color: black;
+}
+
+.btn-div{
+    padding: 20px 0;
+    margin: 0 auto;
+}
